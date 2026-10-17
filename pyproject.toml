@@ -1,0 +1,13 @@
+[project]
+name = "nexum-ai-prompt-optimizer-agent"
+version = "1.0.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "google-genai",
+    "google-adk",
+    "protobuf>=7.36.2",
+    "sqlalchemy[asyncio]",
+    "python-dotenv"
+]
